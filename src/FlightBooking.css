@@ -1,0 +1,210 @@
+/* Add your custom CSS styles here */
+
+/* Example: */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: auto;
+    padding: 20px;
+    background-color: #fefefe;
+    /* display: flex; */
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    background-color: darkgrey;
+    margin: auto;
+    display: grid;
+    width: 100%;
+    padding: 4px;
+  }
+
+  h3 {
+    display: grid;
+    justify-content: center;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    /* color: #7d7d7d; */
+  }
+  
+  form {
+    margin-bottom: 20px;
+    background-color: lightgreen;
+    display: block;
+    padding: 25px;
+  }
+  
+.h3up{
+    text-align: center;
+    color: #333;
+    background-color: lightgreen;
+    margin: auto;
+    display: table-cell;
+    width: 552px;
+}
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  li button {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    background-color: #4CAF50;
+    /* color: white; */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .booking-section {
+    margin-top: 20px;
+    background-color: #e9e7e7;
+    /* padding: 20px; */
+    justify-content: center;
+    /* position: relative; */
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-section h3 {
+    font-size: larger;
+    background-color: lightgreen;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .booking-section p {
+    margin-bottom: 1px;
+    color: #020202;
+    font-weight: bold;
+    font-size: 27px;
+    /* margin: 18px; */
+    background-color: darkseagreen;
+    justify-content: center;
+    position: relative;
+    display: grid;
+    padding: 10px;
+  }
+  
+  .booking-section ul {
+    margin-left: 20px;
+  }
+  
+  .booking-section ul li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .booking-section ul li button {
+    margin-left: 10px;
+  }
+  
+  .booking-section button {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    /* margin-top: 10px; */
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  nav {
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    background-color: #4CAF50;
+    /* color: white; */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  thead {
+    background-color: #f9f9f9;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:hover {
+    background-color: #e6e6e6;
+  }
+  
